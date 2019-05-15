@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>come.poyu.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>come.poyu.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/jsp/manager/register/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarServlet</servlet-name>
+        <servlet-class>come.poyu.servlet.CarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarServlet</servlet-name>
+        <url-pattern>/jsp/user/info/CarRegister</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CarInfo</servlet-name>
+        <servlet-class>come.poyu.servlet.CarInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarInfo</servlet-name>
+        <url-pattern>/jsp/manager/carInfo/Car</url-pattern>
+        <url-pattern>/jsp/superManager/car/Car</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UnRule</servlet-name>
+        <servlet-class>come.poyu.servlet.UnruleCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnRule</servlet-name>
+        <url-pattern>/jsp/manager/carInfo/UnRule</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Upload</servlet-name>
+        <servlet-class>come.poyu.servlet.Picture.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Upload</servlet-name>
+        <url-pattern>/jsp/manager/picture/Upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>come.poyu.servlet.Picture.DownLoadServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>Download</servlet-name>
+        <url-pattern>/jsp/user/Download</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarRevise</servlet-name>
+        <servlet-class>come.poyu.servlet.user.CarReviseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarRevise</servlet-name>
+        <url-pattern>/jsp/user/info/CarRevise</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarRevised</servlet-name>
+        <servlet-class>come.poyu.servlet.user.CarReviseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarRevised</servlet-name>
+        <url-pattern>/jsp/user/info/CarRevised</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

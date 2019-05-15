@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html {
+    height: 80%
+}
+
+body {
+    min-height: 40%;
+    position: relative;
+    font-size: 14px;
+    background-color: #3283AC;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;;
+    text-shadow: chartreuse 3px 3px 10px;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.login_select {
+    border: solid 1px red;
+    width: 91px;
+    heigh: 40px;
+}
+
+.sel {
+    height: 30px;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+.img {
+}
+
+.div_login {
+    text-align: center;
+    margin-top: 200px;
+    height: 300px;
+    background: url(../images/admin-login-bg.jpg) no-repeat center;
+}
+
+.row {
+    position: relative;
+    padding: 40px;
+}
+
+.last {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+}

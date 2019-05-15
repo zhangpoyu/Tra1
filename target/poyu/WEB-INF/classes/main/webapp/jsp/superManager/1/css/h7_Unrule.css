@@ -1,0 +1,45 @@
+.skin_color {
+    height: 35px;
+    background: #BBCCDD;
+    margin-top: -5px;
+}
+
+.form {
+    margin-top: 0px;
+}
+
+.div1 {
+    border: 5px #098323 solid;
+    float: right;
+    margin-top: 0px;
+    height: 96%;
+    width: 19%;
+}
+
+.content {
+    float: right;
+    margin-top: 0px;
+    float: bottom;
+    height: 97%;
+    width: 80%;
+    background: #BBCCDD;
+}
+
+.back_bn {
+    margin-top: 4px;
+    background: cornsilk;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iframeRight {
+    float: left;
+    margin-left: -9px;
+    float: bottom;
+    height: 100%;
+    width: 100%;
+    background: wheat;
+}

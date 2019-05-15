@@ -1,0 +1,29 @@
+body {
+    background: #CEDBA2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div3 {
+    padding: 30px;
+    text-align: center;
+}
+
+.t1 .t2 .t3 .t4 {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.t2 {
+    margin-left: 10px;
+}
+
+.t4 {
+    margin-left: 32px;
+}
+
+.t5 {
+    padding: 40px;
+}
